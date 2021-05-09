@@ -1,5 +1,5 @@
 {
   "profiles": [
-    {"path": "ENDER_3", "name": "Ender 3" },
+    {"path": "ENDER_3", "name": "Ender 3" }
   ]
 }
