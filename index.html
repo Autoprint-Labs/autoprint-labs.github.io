@@ -47,7 +47,7 @@
 <br>
 <button
   style="background-color:#23de9b;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1.5em"
-  id="checkout-button-price_1IkFMzD9PX7CSxGo1INVqq01"
+  id="checkout-button-price_1IpytWD9PX7CSxGovNgRMwdg"
   role="link"
   type="button"
 >
@@ -60,14 +60,14 @@
 (function() {
   var stripe = Stripe('pk_live_NYzUPLifbHf8onWhGy7WgHPn');
 
-  var checkoutButton = document.getElementById('checkout-button-price_1IkFMzD9PX7CSxGo1INVqq01');
+  var checkoutButton = document.getElementById('checkout-button-price_1IpytWD9PX7CSxGovNgRMwdg');
   checkoutButton.addEventListener('click', function () {
     /*
      * When the customer clicks on the button, redirect
      * them to Checkout.
      */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1IkFMzD9PX7CSxGo1INVqq01', quantity: 1}],
+      lineItems: [{price: 'price_1IpytWD9PX7CSxGovNgRMwdg', quantity: 1}],
       mode: 'payment',
       /*
        * Do not rely on the redirect to the successUrl for fulfilling
